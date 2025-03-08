@@ -1,0 +1,8 @@
+services:
+  flight_rag:
+    build: .
+    container_name: flight_rag
+    env_file:
+      - .env 
+    stdin_open: true
+    tty: true
